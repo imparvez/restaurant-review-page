@@ -1,0 +1,84 @@
+* {
+    transition: all 0.5s;
+    outline: none;
+}
+
+body {
+    font-family: Lato, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.col-lg-12 {
+	max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+
+nav.navbar.navbar-default {
+	background-color: rgb(231, 76, 60);
+	border-radius: 0px;
+}
+
+nav.navbar.navbar-default a.navbar-brand {
+	color: #fff;
+}
+
+ul.nav.navbar-nav {
+	float: right;
+}
+
+ul.nav.navbar-nav span.glyphicon {
+	color: #fff;
+}
+
+.image-container img {
+	width: 100%;
+}
+
+.header-star-info {
+    overflow: hidden;
+}
+
+.header-star-info h2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.1;
+    color: rgb(231, 76, 60);
+}
+
+.location {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.ratings-info {
+    margin-top: 25px;
+    float: right;
+}
+
+.ratings-info span {
+	color: #fff;
+}
+
+.ratings-info span.rated {
+	color: rgb(241, 196, 15);
+}
+
+.custom-btn {
+    margin: 10px 2px;
+    padding: 15px 30px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.05rem;
+    border-radius: 50px;
+    background-color: rgb(231, 76, 60);
+    letter-spacing: 2px;
+}
