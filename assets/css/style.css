@@ -8,31 +8,44 @@ body {
 }
 
 .col-lg-12 {
-	max-width: 860px;
+    max-width: 860px;
     width: 100%;
     margin: 0 auto;
     float: none;
 }
 
 nav.navbar.navbar-default {
-	background-color: rgb(231, 76, 60);
-	border-radius: 0px;
+    background-color: rgb(231, 76, 60);
+    border-radius: 0px;
 }
 
 nav.navbar.navbar-default a.navbar-brand {
-	color: #fff;
+    color: #fff;
+}
+
+.navbar-header {
+    display: inline-block;
+}
+
+.navbar-list-container {
+    float: right;
+    overflow: hidden;
+}
+
+.nav.navbar-nav>li {
+    float: left;
 }
 
 ul.nav.navbar-nav {
-	float: right;
+    float: right;
 }
 
 ul.nav.navbar-nav span.glyphicon {
-	color: #fff;
+    color: #fff;
 }
 
 .image-container img {
-	width: 100%;
+    width: 100%;
 }
 
 .header-star-info {
@@ -63,11 +76,11 @@ ul.nav.navbar-nav span.glyphicon {
 }
 
 .ratings-info span {
-	color: #fff;
+    color: #fff;
 }
 
 .ratings-info span.rated {
-	color: rgb(241, 196, 15);
+    color: rgb(241, 196, 15);
 }
 
 .custom-btn {
